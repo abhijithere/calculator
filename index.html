@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body class="  bg-gradient-to-r from-teal-50 to-teal-300 flex justify-center ">
+    <div class="calculator flex flex-col h-[550px] w-96 bg-slate-700 mt-28 rounded-xl shadow-2xl">
+            <div class="display h-40 text-white flex justify-end  items-center text-right text-3xl  mr-5 ml-6 overflow-hidden" id="display"></div>
+        <div class="allbuttonto">
+            <div class="allbuttonssec text-white grid grid-cols-4 cursor-pointer text-2xl">
+                <div class="button  hover:bg-slate-600  ">c</div>
+                <div class="button hover:bg-slate-600">+</div>
+                <div class="button hover:bg-slate-600">-</div>
+                <div class="button bg-teal-700 hover:bg-teal-600">&larr;</div>
+                <div class="button hover:bg-slate-600">1</div>
+                <div class="button hover:bg-slate-600">2</div>
+                <div class="button hover:bg-slate-600">3</div>
+                <div class="button bg-teal-700 hover:bg-slate-600">*</div>
+                <div class="button hover:bg-slate-600">4</div>
+                <div class="button hover:bg-slate-600">5</div>
+                <div class="button hover:bg-slate-600">6</div>
+                <div class="button bg-teal-700 hover:bg-slate-600">/</div>
+                <div class="button hover:bg-slate-600">7</div>
+                <div class="button hover:bg-slate-600">8</div>
+                <div class="button hover:bg-slate-600">9</div>
+                <div class="button bg-teal-700 hover:bg-slate-600">.</div>
+            </div>
+            <div class="button12 grid grid-cols-2 text-white cursor-pointer text-2xl">
+                <div class="button hover:bg-slate-600 rounded-xl">0</div>
+                <div class="button bg-teal-700 hover:bg-slate-600 rounded-xl">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
